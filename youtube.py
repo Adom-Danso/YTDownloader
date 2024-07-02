@@ -40,10 +40,6 @@ class UI(QMainWindow):
     def get_location(self):
         directory = QFileDialog.getExistingDirectory(None, "Choose location")
         return directory
-        
-# video = YouTube("https://youtu.be/lEDH-vq5l6M?si=UYspS4ablbApuYdm").streams.filter(adaptive=True, file_extension='mp4').order_by('resolution').desc().first()
-# print(video)
-# video.download('')
 
 
 
